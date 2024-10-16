@@ -1005,9 +1005,8 @@ button:focus:not(:focus-visible) {
 	display: flex;
   justify-content: center;
   align-items: center;
-	margin: 0 auto; 
+	margin: auto; 
 	max-width: 100%;
-	  margin: 20px;
 }
 
 .footer-menu-link {
