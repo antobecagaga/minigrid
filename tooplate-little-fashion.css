@@ -544,9 +544,9 @@ strong {
 
 .slick-bottom .container {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  transform: translate(-10%, -10%);
+  top: 100px;
+  left: 100px;
+  transform: translate(10%, 10%);
 }
 
 .slick-overlay {
