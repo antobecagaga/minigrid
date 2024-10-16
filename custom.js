@@ -25,6 +25,7 @@
       slidesToShow: 1,
       centerPadding: '40px',
       adaptiveHeight: true,
+      rtl: true,
     });
 
     $('.slick-testimonial').slick({
