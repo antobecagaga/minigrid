@@ -1003,6 +1003,8 @@ button:focus:not(:focus-visible) {
 
 .footer-menu-item {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
