@@ -891,6 +891,7 @@ button:focus:not(:focus-visible) {
   background: var(--white-color);
   position: relative;
   transition: all 0.5s ease-out;
+	  margin: 20px;
 }
 
 .product-image {
@@ -1004,6 +1005,7 @@ button:focus:not(:focus-visible) {
   display: block;
 	margin: 0 auto; 
 	max-width: 100%;
+	  margin: 20px;
 }
 
 .footer-menu-link {
