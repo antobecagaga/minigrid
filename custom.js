@@ -24,6 +24,7 @@
       centerMode: true,
       slidesToShow: 1,
       centerPadding: '40px',
+      adaptiveHeight: true,
     });
 
     $('.slick-testimonial').slick({
