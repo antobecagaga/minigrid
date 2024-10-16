@@ -15,7 +15,7 @@
         $(".navbar-collapse").collapse('hide');
     });
 
-    $('.single-item').slick({
+    $('.slick-slideshow').slick({
       autoplay: true,
       infinite: true,
       arrows: false,
@@ -25,7 +25,6 @@
       slidesToShow: 1,
       centerPadding: '40px',
       adaptiveHeight: true,
-      rtl: true,
     });
 
     $('.slick-testimonial').slick({
