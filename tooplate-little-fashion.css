@@ -534,7 +534,7 @@ strong {
 .slick-bottom {
   background: linear-gradient(to top, var(--dark-color), transparent 90%);
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   bottom: 0;
   right: 0;
   left: 0;
@@ -544,9 +544,9 @@ strong {
 
 .slick-bottom .container {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -40%);
+  top: 10px;
+  left: 10px;
+  transform: translate(-10%, -10%);
 }
 
 .slick-overlay {
