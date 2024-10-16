@@ -22,6 +22,7 @@
       fade: true,
       dots: true,
       centerMode: true,
+      slidesToShow: 1,
     });
 
     $('.slick-testimonial').slick({
