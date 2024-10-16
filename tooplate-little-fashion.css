@@ -1002,7 +1002,9 @@ button:focus:not(:focus-visible) {
 }
 
 .footer-menu-item {
-  display: block;
+	display: flex;
+  justify-content: center;
+  align-items: center;
 	margin: 0 auto; 
 	max-width: 100%;
 	  margin: 20px;
