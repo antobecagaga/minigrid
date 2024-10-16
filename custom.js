@@ -17,7 +17,7 @@
 
     $('.slick-slideshow').slick({
       autoplay: true,
-      infinite: true,
+      infinite: false,
       arrows: false,
       fade: true,
       dots: false,
