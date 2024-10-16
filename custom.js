@@ -20,9 +20,10 @@
       infinite: true,
       arrows: false,
       fade: true,
-      dots: true,
+      dots: false,
       centerMode: true,
       slidesToShow: 1,
+      centerPadding: '40px',
     });
 
     $('.slick-testimonial').slick({
