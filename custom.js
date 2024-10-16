@@ -21,6 +21,7 @@
       arrows: false,
       fade: true,
       dots: true,
+      centerMode: true,
     });
 
     $('.slick-testimonial').slick({
