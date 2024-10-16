@@ -15,7 +15,7 @@
         $(".navbar-collapse").collapse('hide');
     });
 
-    $('.slick-slideshow').slick({
+    $('.single-item').slick({
       autoplay: true,
       infinite: false,
       arrows: false,
