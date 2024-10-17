@@ -402,7 +402,7 @@ strong {
 
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--black);
 }
 
 .nav-link:focus, 
