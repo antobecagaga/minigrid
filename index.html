@@ -22,7 +22,8 @@
         
         <link rel="stylesheet" href="slick.css"/>
 
-        <link href="tooplate-little-fashion.css" rel="stylesheet">
+        <link rel="preload" href="tooplate-little-fashion.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="tooplate-little-fashion.css"></noscript>
 
     </head>
     
@@ -91,10 +92,10 @@
 
 
         <!-- JAVASCRIPT FILES -->
-          <script src="Headroom.js"></script>
+        <script src="Headroom.js"></script>
         <script src="jQuery.headroom.js"></script>
-        <script src="jquery.min.js"></script>
-        <script src="bootstrap.bundle.min.js"></script>
+        <script src="jquery.min.js" async></script>
+        <script src="bootstrap.bundle.min.js" async></script>
 
         <script src="slick.min.js"></script>
         <script src="custom.js"></script>
