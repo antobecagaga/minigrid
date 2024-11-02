@@ -6,10 +6,10 @@
 :root {
   --white-color:                #FFFFFF;
   --primary-color:              #FF4400;
-  --section-bg-color:           #f0f8ff;
+  --section-bg-color:           #7a8fa1;
   --dark-color:                 #000000;
-  --grey-color:                 #d0d1d1;
-  --p-color:                    #717275;
+  --grey-color:                 #585959;
+  --p-color:                    #424345;
 
   --body-font-family:           'Inter', sans-serif;
 
@@ -1003,7 +1003,7 @@ button:focus:not(:focus-visible) {
 }
 
 .footer-menu-link {
-  color: #6c757d;
+  color: #141517;
   font-weight: var(--font-weight-light);
   display: inline-block;
   vertical-align: top;
@@ -1039,7 +1039,7 @@ button:focus:not(:focus-visible) {
 }
 
 .social-icon-link {
-  color: #6c757d;
+  color: #141517;
   font-size: 1rem;
   display: inline-block;
   vertical-align: top;
