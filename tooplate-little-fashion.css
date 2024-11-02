@@ -518,7 +518,7 @@ strong {
 .slick-custom {
   color: var(--white-color);
   position: relative;
-  background: linear-gradient(to top, var(--dark-color), transparent 90%);
+  background: linear-gradient(to bottom, var(--dark-color), transparent 10%);
   z-index: 2;
   bottom: 0;
   right: 0;
