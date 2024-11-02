@@ -14,9 +14,12 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <link href="bootstrap-icons.css" rel="stylesheet">
-
-         <link href="bootstrap.min.css" rel="stylesheet">
+        <link rel="preload" href="bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="bootstrap-icons.css"></noscript>
+    
+        <link rel="preload" href="bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="bootstrap.min.css"></noscript>
+        
         <link rel="stylesheet" href="slick.css"/>
 
         <link href="tooplate-little-fashion.css" rel="stylesheet">
