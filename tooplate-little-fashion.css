@@ -1066,13 +1066,13 @@ button:focus:not(:focus-visible) {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 2000px) {
   h1 {
     font-size: 62px;
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 2000px) {
   h1 {
     font-size: 42px;
     margin-bottom: 0;
@@ -1107,7 +1107,7 @@ button:focus:not(:focus-visible) {
   }
 
   .site-header {
-    background-position: bottom;
+    background-position: center;
   }
 
   #cart-modal .modal-header .btn-close {
