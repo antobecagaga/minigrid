@@ -509,6 +509,7 @@ strong {
 
 .slick-slideshow {
   margin-top: 86px;
+  overflow: scroll;
 }
 
 .slick-title {
@@ -531,6 +532,7 @@ strong {
 .slick-custom img {
   width: 100%;
   object-fit: cover;
+  overflow: scroll;
 }
 
 .slick-bottom {
