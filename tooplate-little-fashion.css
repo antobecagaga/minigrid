@@ -859,31 +859,7 @@ button:focus:not(:focus-visible) {
   padding: 2rem 4rem;
 }
 
-/*---------------------------------------
-  SKILL - PROGRESS BAR               
------------------------------------------*/
-.skill-thumb strong {
-  display: inline-block;
-  margin-bottom: 6px;
-}
 
-.skill-thumb span {
-  color: var(--dark-color);
-  font-size: 24px;
-  font-weight: var(--font-weight-bold);
-}
-
-.skill-thumb .progress {
-  background: var(--white-color);
-  box-shadow: none;
-  border-radius: 100px;
-  height: 1px;
-  margin-bottom: 16px;
-}
-
-.skill-thumb .progress .progress-bar-primary {
-  background: var(--grey-color);
-}
 
 /*---------------------------------------
   PRODUCT               
@@ -961,7 +937,36 @@ button:focus:not(:focus-visible) {
   padding-bottom: 6px;
 }
 
+/*---------------------------------------
+  CONTACT              
+-----------------------------------------*/
+.contact-info {
+  padding: 40px;
+}
 
+.contact-form .form-control {
+  border-color: var(--grey-color);
+  font-weight: var(--font-weight-normal);
+}
+
+.form-floating>label {
+  color: var(--grey-color);
+  font-weight: var(--font-weight-normal);
+}
+
+.contact-form button[type='submit'] {
+  background: var(--dark-color);
+  border: none;
+  border-radius: 100px;
+  color: var(--white-color);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  padding: 16px;
+}
+
+.contact-form button[type='submit']:hover {
+  background: var(--primary-color);
+}
 
 /*---------------------------------------
   SITE FOOTER               
@@ -1146,7 +1151,14 @@ button:focus:not(:focus-visible) {
     padding: 2rem;
   }
 
+  #cart-modal .modal-footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
+  #cart-modal .modal-body {
+    padding: 4rem 2rem 2rem 2rem;
+  }
 
   .full-image-img {
     bottom: 0;
