@@ -1,8 +1,4 @@
 
-
-/*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
------------------------------------------*/
 :root {
   --white-color:                #FFFFFF;
   --primary-color:              #d63f09;
@@ -35,11 +31,6 @@ html {
   scroll-behavior: smooth;
 }
 
-@media screen and (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-}
 
 body {
     background: var(--white-color);
@@ -47,9 +38,6 @@ body {
     position: relative;
 }
 
-/*---------------------------------------
-  TYPOGRAPHY               
------------------------------------------*/
 
 h2,
 h3,
@@ -87,18 +75,6 @@ h3 {
   font-size: 34px;
 }
 
-h4 {
-  font-size: 32px;
-}
-
-h5 {
-  font-size: 24px;
-}
-
-h6 {
-  font-size: 20px;
-}
-
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);
@@ -116,44 +92,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--primary-color);
-}
-
-.text-primary {
-  color: var(--primary-color) !important;
-}
-
-::selection {
-  background: var(--primary-color);
-  color: var(--white-color);
-}
-
-/*---------------------------------------
-  CUSTOM LINK               
------------------------------------------*/
-.custom-link {
-  color: var(--p-color);
-  font-size: var(--custom-link-font-size);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  position: relative;
-}
-
-.custom-link i {
-  position: absolute;
-  opacity: 0;
-  bottom: 0;
-  left: 100%;
-  transition: all 0.3s;
-  line-height: normal;
-}
-
-.custom-link:hover i {
-  opacity: 1;
-  left: 101%;
-}
-
 .lead {
   font-size: 1.5rem;
   font-weight: var(--font-weight-thin);
@@ -164,9 +102,7 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-/*---------------------------------------
-  PRE LOADER               
------------------------------------------*/
+
 .preloader {
   position: fixed;
   top: 0;
@@ -203,13 +139,7 @@ strong {
   animation: spinner .9s linear infinite;
 }
 
-@keyframes spinner {
-  to {transform: rotate(360deg);}
-}
 
-/*---------------------------------------
-  CUSTOM BUTTON & ICON              
------------------------------------------*/
 .custom-btn {
   background: var(--dark-color);
   border-radius: 50px;
@@ -230,18 +160,6 @@ strong {
   border-color: transparent;
 }
 
-.cart-form-select {
-  border-radius: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.cart-btn {
-  border-radius: 0;
-  width: 100%;
-  font-size: var(--product-link-font-size);
-}
-
 .custom-btn:hover,
 .slick-slideshow .custom-btn:hover {
   background: var(--primary-color);
@@ -256,10 +174,6 @@ strong {
 .custom-icon {
   display: inline-block;
   vertical-align: middle;
-}
-
-.bi-bag.custom-icon {
-  font-size: 17px;
 }
 
 .featured-icon {
@@ -335,17 +249,6 @@ strong {
 	color: var(--primary-color);
 }
 
-.navbar.headroom--not-top {
-  padding: 20px 0;
-}
-
-.headroom--pinned {
-  transform: translate(0, 0);
-}
-
-.headroom--unpinned {
-  transform: translate(0, -150%);
-}
 
 .navbar-brand {
   color: var(--dark-color);
