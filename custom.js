@@ -14,12 +14,5 @@
     $('.navbar-collapse a').click(function(){
         $(".navbar-collapse").collapse('hide');
     });
-
-
-
-    $('.slick-testimonial').slick({
-      arrows: false,
-      dots: true,
-    });
     
   })(window.jQuery);
