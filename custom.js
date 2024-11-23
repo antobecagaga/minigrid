@@ -15,17 +15,7 @@
         $(".navbar-collapse").collapse('hide');
     });
 
-    $('.slick-slideshow').slick({
-      autoplay: true,
-      infinite: true,
-      arrows: false,
-      fade: true,
-      dots: false,
-      centerMode: true,
-      slidesToShow: 1,
-      centerPadding: '40px',
-      adaptiveHeight: true,
-    });
+
 
     $('.slick-testimonial').slick({
       arrows: false,
