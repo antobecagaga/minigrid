@@ -492,7 +492,9 @@ strong {
 }
 
 .slick-custom {
+  color: var(--white-color);
   position: relative;
+  background: linear-gradient(to bottom, var(--dark-color), var(--p-color), gray, var(--primary-color), transparent 100%);
 }
 
 .slick-custom img {
