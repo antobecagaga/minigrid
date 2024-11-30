@@ -9,7 +9,7 @@
     });
 
     // NAVBAR
-  //$(".navbar").headroom();
+  $(".navbar").headroom();
 
     $('.navbar-collapse a').click(function(){
         $(".navbar-collapse").collapse('hide');
