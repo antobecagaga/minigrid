@@ -757,7 +757,6 @@ button:focus:not(:focus-visible) {
   padding: 2rem 0;
 }
 
-
 .team {
   background: var(--grey-color);
 }
@@ -800,43 +799,6 @@ button:focus:not(:focus-visible) {
   right: 0;
   font-size: 24px;
   margin: 32px;
-}
-
-#cart-modal .modal-header .btn-close {
-  z-index: 2;
-  margin: 22px;
-}
-
-#cart-modal .modal-header {
-  border-bottom: 0;
-  padding: 0;
-}
-
-#cart-modal .modal-footer {
-  padding: 2rem 4rem;
-}
-
-.skill-thumb strong {
-  display: inline-block;
-  margin-bottom: 6px;
-}
-
-.skill-thumb span {
-  color: var(--dark-color);
-  font-size: 24px;
-  font-weight: var(--font-weight-bold);
-}
-
-.skill-thumb .progress {
-  background: var(--white-color);
-  box-shadow: none;
-  border-radius: 100px;
-  height: 1px;
-  margin-bottom: 16px;
-}
-
-.skill-thumb .progress .progress-bar-primary {
-  background: var(--grey-color);
 }
 
 
@@ -913,33 +875,6 @@ button:focus:not(:focus-visible) {
 }
 
 
-.contact-info {
-  padding: 40px;
-}
-
-.contact-form .form-control {
-  border-color: var(--grey-color);
-  font-weight: var(--font-weight-normal);
-}
-
-.form-floating>label {
-  color: var(--grey-color);
-  font-weight: var(--font-weight-normal);
-}
-
-.contact-form button[type='submit'] {
-  background: var(--dark-color);
-  border: none;
-  border-radius: 100px;
-  color: var(--white-color);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  padding: 16px;
-}
-
-.contact-form button[type='submit']:hover {
-  background: var(--primary-color);
-}
 
 .site-footer {
   background: var(--dark-color);
@@ -979,30 +914,6 @@ button:focus:not(:focus-visible) {
   font-size: var(--copyright-text-font-size);
 }
 
-
-.social-icon {
-  margin: 0;
-  padding: 0;
-}
-
-.social-icon li {
-  list-style: none;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.social-icon-link {
-  color: #6c757d;
-  font-size: 1rem;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 4px;
-  margin-right: 15px;
-}
-
-.social-icon-link:hover {
-  color: var(--primary-color);
-}
 
 @media screen and (max-width: 1200px) {
   h1 {
@@ -1062,14 +973,6 @@ button:focus:not(:focus-visible) {
     padding-left: 27px;
   }
 
-  .social-login,
-  .div-separator {
-    width: 75% !important;
-  }
-
-  #cart-modal .modal-footer .row {
-    width: 100% !important;
-  }
 
   .site-header.section-padding,
   .section-padding {
@@ -1113,14 +1016,6 @@ button:focus:not(:focus-visible) {
     padding: 2rem;
   }
 
-  #cart-modal .modal-footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  #cart-modal .modal-body {
-    padding: 4rem 2rem 2rem 2rem;
-  }
 
   .full-image-img {
     bottom: 0;
