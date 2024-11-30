@@ -679,6 +679,7 @@ strong {
 section {
   content-visibility: auto;
   contain-intrinsic-size: 700px;
+  background: var(--section-bg-color);
 }
 
 .section-padding {
