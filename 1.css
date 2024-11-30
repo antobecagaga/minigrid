@@ -1,15 +1,4 @@
-/*
 
-Tooplate 2127 Little Fashion
-
-https://www.tooplate.com/view/2127-little-fashion
-
-*/
-
-
-/*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
------------------------------------------*/
 :root {
   --white-color:                #FFFFFF;
   --primary-color:              #FF4400;
@@ -54,9 +43,6 @@ body {
     position: relative;
 }
 
-/*---------------------------------------
-  TYPOGRAPHY               
------------------------------------------*/
 
 h2,
 h3,
@@ -136,9 +122,7 @@ a:hover {
   color: var(--white-color);
 }
 
-/*---------------------------------------
-  CUSTOM LINK               
------------------------------------------*/
+
 .custom-link {
   color: var(--p-color);
   font-size: var(--custom-link-font-size);
@@ -171,9 +155,7 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
-/*---------------------------------------
-  PRE LOADER               
------------------------------------------*/
+
 .preloader {
   position: fixed;
   top: 0;
@@ -214,9 +196,7 @@ strong {
   to {transform: rotate(360deg);}
 }
 
-/*---------------------------------------
-  CUSTOM BUTTON & ICON              
------------------------------------------*/
+
 .custom-btn {
   background: var(--dark-color);
   border-radius: 50px;
@@ -274,9 +254,6 @@ strong {
   font-size: 52px;
 }
 
-/*---------------------------------------
-  DIV SEPARATOR               
------------------------------------------*/
 .div-separator {
   position: relative;
 }
@@ -304,9 +281,7 @@ strong {
   text-transform: uppercase;
 }
 
-/*---------------------------------------
-  FULL IMAGE               
------------------------------------------*/
+
 .full-image-img {
   display: block;
   position: absolute;
@@ -323,9 +298,7 @@ strong {
   }
 }
 
-/*---------------------------------------
-  NAVIGATION               
------------------------------------------*/
+
 .navbar {
   background: var(--white-color);
   position: fixed;
@@ -476,9 +449,7 @@ strong {
   top: 8px;
 }
 
-/*---------------------------------------
-  SITE HEADER              
------------------------------------------*/
+
 .site-header {
   background-color: var(--section-bg-color);
   position: relative;
@@ -505,9 +476,7 @@ strong {
   object-fit: cover;
 }
 
-/*---------------------------------------
-  SLICK SLIDESHOW               
------------------------------------------*/
+
 @media (min-width: 992px) {
   .slick-slideshow {
     height: 100vh;
@@ -637,9 +606,7 @@ strong {
   background: var(--white-color);
 }
 
-/*---------------------------------------
-  CUSTOM CIRCLE IMAGES               
------------------------------------------*/
+
 
 .custom-circle-image {
   border-radius: 100px;
@@ -652,9 +619,7 @@ strong {
   height: 85px;
 }
 
-/*---------------------------------------
-  TESTIMONIAL               
------------------------------------------*/
+
 .slick-testimonial .slick-list,
 .slick-testimonial .slick-track {
   height: 100%;
@@ -710,9 +675,7 @@ strong {
   background: var(--dark-color);
 }
 
-/*---------------------------------------
-  SECTION               
------------------------------------------*/
+
 section {
   content-visibility: auto;
   contain-intrinsic-size: 700px;
@@ -727,9 +690,7 @@ section {
   background: var(--section-bg-color);
 }
 
-/*---------------------------------------
-  ABOUT               
------------------------------------------*/
+
 .about .nav-pills .nav-item {
   width: 100%;
 }
@@ -751,9 +712,7 @@ section {
   color: var(--primary-color);
 }
 
-/*---------------------------------------
-  FAQ ACCORDION               
------------------------------------------*/
+
 .accordion-item {
   background-color: transparent;
   border-top: 0;
@@ -793,9 +752,7 @@ button:focus:not(:focus-visible) {
   padding: 2rem 0;
 }
 
-/*---------------------------------------
-  TEAM MEMBERS               
------------------------------------------*/
+
 .team {
   background: var(--grey-color);
 }
@@ -854,9 +811,6 @@ button:focus:not(:focus-visible) {
   padding: 2rem 4rem;
 }
 
-/*---------------------------------------
-  SKILL - PROGRESS BAR               
------------------------------------------*/
 .skill-thumb strong {
   display: inline-block;
   margin-bottom: 6px;
@@ -880,9 +834,7 @@ button:focus:not(:focus-visible) {
   background: var(--grey-color);
 }
 
-/*---------------------------------------
-  PRODUCT               
------------------------------------------*/
+
 .front-product {
   background: var(--section-bg-color);
 }
@@ -955,9 +907,7 @@ button:focus:not(:focus-visible) {
   padding-bottom: 6px;
 }
 
-/*---------------------------------------
-  CONTACT              
------------------------------------------*/
+
 .contact-info {
   padding: 40px;
 }
@@ -986,9 +936,6 @@ button:focus:not(:focus-visible) {
   background: var(--primary-color);
 }
 
-/*---------------------------------------
-  SITE FOOTER               
------------------------------------------*/
 .site-footer {
   background: var(--dark-color);
   padding-top: 5rem;
@@ -1027,9 +974,7 @@ button:focus:not(:focus-visible) {
   font-size: var(--copyright-text-font-size);
 }
 
-/*---------------------------------------
-  SOCIAL ICON               
------------------------------------------*/
+
 .social-icon {
   margin: 0;
   padding: 0;
@@ -1054,9 +999,6 @@ button:focus:not(:focus-visible) {
   color: var(--primary-color);
 }
 
-/*---------------------------------------
-  RESPONSIVE STYLES               
------------------------------------------*/
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 62px;
